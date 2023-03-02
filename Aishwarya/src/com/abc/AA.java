@@ -33,7 +33,7 @@ public class AA extends HttpServlet {
 		String name = request.getParameter("name");
 		String mobile = request.getParameter("mobile");
 		out.println(name);
-		out.println(mobile);
+		out.println(mobile);//abc
 	}
 
 }
